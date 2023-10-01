@@ -53,9 +53,7 @@ public class Main {
         //Пункт 4.
         for (int i = 0; i < 12; i++){
              for (int j = 0; j < 16; j++){
-                  System.out.print(String.format("%.3f",arr[i][j]));
-		  System.out.print(" ");
-		  if (arr[i][j] != arr[i][j]) System.out.print("  ");
+                  System.out.print(String.format("%7.3f",arr[i][j]));
 
 
              }
